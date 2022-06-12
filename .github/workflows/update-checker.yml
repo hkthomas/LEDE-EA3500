@@ -12,8 +12,10 @@
 name: Update Checker
 
 env:
-  REPO_URL: https://github.com/Lienol/openwrt
-  REPO_BRANCH: 19.07
+  #REPO_URL: https://github.com/Lienol/openwrt
+  REPO_URL: https://github.com/coolsnowwolf/lede
+  #REPO_BRANCH: 19.07
+  REPO_BRANCH: master
 
 on:
   workflow_dispatch:
